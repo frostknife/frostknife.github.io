@@ -1,0 +1,121 @@
+/**Sic Transit Gloria Mundi**/
+
+/**BODY**/
+* {
+	margin:0;
+	padding:0;
+}
+.frame {
+	border-left:50px solid rgb(122, 122, 133);
+	height:100%;
+	overflow:auto;
+}
+/**NAV MENU**/
+.cont	{
+	width:35em;
+	margin-left:2.5em;
+	background-color:#dddddd;
+}
+
+.menu ul	{
+	list-style:none;
+	text-align:left;
+	width:100%;
+}
+
+.menu li	{
+	width:auto;
+	display:inline;
+	font-family: arial;
+	line-height:1.2em;
+	font-size:1.5em;
+	padding:0em;
+	margin-left:1.75em;
+	font-weight: bold;
+}
+
+.menu li	{
+	text-decoration: none;
+}
+
+.menu a:link, .menu a:visited {
+    color: rgb(244, 115, 9); 
+    background-color: transparent; 
+	text-decoration: none;
+}
+
+.menu a:active {
+    color: black; 
+    background-color: transparent;
+}
+
+.menu a:hover {
+	color:rgb(244, 115, 9);
+	transition-duration:120ms;
+	border-bottom:solid red 4px;
+}
+
+/**LINK PUBS**/
+
+.pubs ul	{
+	display:inline;
+	list-style:none;
+	text-align:left;
+	width:100%;
+}
+
+.pubs li {
+	width:auto;
+	display:block;
+	font-family: Merriweather, sans serif;
+	line-height:1.2em;
+	font-size:1.2em;
+	padding:1em 1em 1em 1em;
+	background-color:transparent;
+	margin-left:1.3em;
+}
+
+.pubs a {
+	text-decoration: none;
+}
+
+.pubs a:hover {
+	color:rgb(244, 115, 9);
+	transition-duration:120ms;
+	border-bottom:solid black 2px;
+}
+
+.pubs a:link, .pubs a:visited {
+    color: rgb(244, 115, 9); 
+    background-color: transparent; 
+}
+
+.pubs a:active {
+    color: black; 
+    background-color: transparent;
+}
+
+/**TEXT**/
+h1 {
+	font-family:tahoma, sans-serif;
+	font-size:1.66em;
+	margin-left:1.55em;
+	padding:.5em 2.5em .5em 0em;
+}
+h2 {
+	font-family:tahoma, sans-serif;
+	font-size:1.35em;
+	margin-left:1.95em;
+	padding:.5em 2.5em .5em 0em;
+}
+
+p	{
+	font-family:tahoma, sans-serif;
+	font-size:1.1em;
+	margin-left:2.4em;
+	padding:.5em 2.5em .5em 0em;
+}
+.copy {
+	font-size:.75em;
+	margin-left:3.7em;
+}
